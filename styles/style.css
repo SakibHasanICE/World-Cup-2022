@@ -24,7 +24,7 @@ main {
   margin-bottom: 130px;
   background-color: #161616;
   border-radius: 30px;
-   transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
 }
 .head-title {
   margin-top: 0px;
@@ -75,10 +75,8 @@ main {
   border-radius: 30px;
 }
 /* transition */
-.container-header:hover{
+.container-header:hover {
   background-color: #4013bdcb;
-  
-  
 }
 /* -----------------
   menu bar style
@@ -282,7 +280,6 @@ mobile devices
   }
   .container-blogs {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-
     justify-content: center;
   }
   .menu {
@@ -415,4 +412,9 @@ tablet
     color: white;
     font-size: 15px;
   }
+  footer{
+    width: 110vw;
+  }
 }
+
+/* --------------------------Happy Coding ----------------------*/
